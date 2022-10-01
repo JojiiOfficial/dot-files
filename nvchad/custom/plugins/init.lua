@@ -65,4 +65,10 @@ return {
       require "custom.plugins.null-ls"
     end,
   },
+
+  ["akinsho/toggleterm.nvim"] = {
+    config = function ()
+      require "custom.plugins.toggleterm"
+    end
+  },
 }

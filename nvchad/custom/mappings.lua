@@ -73,7 +73,7 @@ M.crates = {
       end,
       "Show version popup"
     },
-    ['ci'] = {
+    ['cl'] = {
       function ()
         require('crates').open_lib_rs()
       end,
